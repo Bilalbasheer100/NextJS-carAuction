@@ -9,9 +9,8 @@ function Form() {
     <div className="flex flex-col items-center py-8 w-[489px] h-[562px] bg-[rgba(0,0,0,0.78)] mt-10 ml-[110px] rounded-[10px]">
       {/* Tabs */}
       <div className="w-[417px] max-w-md rounded-t-lg flex items-center p-2 gap-x-1 justify-between relative top-2">
-       
         <button className="flex-1 text-center text-sm py-2 border border-transparent w-[88px] h-[44px] rounded-t-[7px] bg-white">All</button>
-        <button className="flex-1 text-center text-sm py-2 border border-transparent w-[88px] h-[44px] rounded-t-[7px] bg-indigo-600 text-white font-bold">Find</button>
+        <button className="flex-1 text-center text-sm py-2 border border-transparent w-[88px] h-[44px] rounded-t-[7px] bg-purple-100 text-white font-bold">Find</button>
         <button className="flex-1 text-center text-sm py-2 border border-transparent w-[88px] h-[44px] rounded-t-[7px] bg-white">Quick Pick</button>
         <div className="flex-1 text-center text-sm py-2 border border-transparent w-[88px] h-[44px] rounded-t-[7px] bg-white flex justify-around items-center">
           <button>Scan</button>
@@ -20,7 +19,7 @@ function Form() {
       </div>
 
       {/* Search Fields */}
-      <div className="h-[345px]">
+      <form className="h-[345px]">
         <div className="bg-white p-4 max-w-md rounded-b-lg shadow-md w-[401px]">
           <div className="grid grid-cols-2 gap-2 text-xs font-normal">
             <select className="border rounded-lg p-2 h-10">
@@ -107,7 +106,7 @@ function Form() {
         <div className="flex justify-end mt-[15px]">
           <button className="bg-purple-100 text-white py-2 px-8 rounded-lg w-[163px] h-10 text-sm font-normal">Search</button>
         </div>
-      </div>
+      </form>
 
       {/* Short Keys */}
       <div className="mt-[40px]">
